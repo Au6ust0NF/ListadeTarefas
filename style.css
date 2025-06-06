@@ -1,0 +1,124 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Courier New', Courier, monospace;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(235, 228, 228);
+}
+
+h1 {
+    text-align: center;
+    margin: 30px;
+    
+}
+
+header {
+    display: flex;
+    flex-wrap: row wrap;
+    justify-content: center;
+    margin-bottom: 50px;
+    
+}
+
+input {
+    height: 90px;
+    padding-left: 15px;
+    width: 65%;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border: none;
+    outline: none;
+    font-size: large;
+    
+
+
+    
+}
+
+button {
+    outline: none;
+    border: none;
+    cursor: pointer;
+    
+}
+
+.add {
+    width: 15%;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    background-color: green;
+    color: white;
+}
+
+
+.item {
+    font-family: Arial, Helvetica, sans-serif;
+    flex-wrap: row wrap;
+    display: flex;
+    box-shadow: 4px 2px 15px rgba(0, 0, 0, 0.44);
+    background-color: white;
+    width: 80%;
+    height: 80px;
+    margin: 30px auto;
+}
+
+.icon {
+    flex: 15%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.bx.bx-circle {
+    font-size: 35px;
+    cursor: pointer;
+}
+
+.nome {
+    flex: 70%;
+    font-size: 20px;
+    font-weight: bold;
+    margin: auto auto;
+    cursor: pointer;
+    
+}
+
+.botao {
+    cursor: pointer;
+    background-color: red;
+    flex: 25%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    
+}
+
+.del {
+    height: 100%;
+    width: 100%;
+    background-color: red;
+    color:white;
+}
+
+.item.feito{
+    background-color: rgb(113, 245, 113);
+    
+}
+
+.bx.bxs-check-circle {
+    font-size: 35px;
+    cursor: pointer;
+    color: rgb(2, 189, 2);
+}
+
+.item.feito .nome {
+    text-decoration: line-through;
+    color: grey;
+}
